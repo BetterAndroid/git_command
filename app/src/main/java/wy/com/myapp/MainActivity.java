@@ -1,4 +1,4 @@
-package wy.com.myapp;
+﻿package wy.com.myapp;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
-    private String[] s = {"测试","工程师","android","IOS","移动端","手机","电脑","这是测试数据，你信吗"};
+    private String[] s = {"测试","工程师","android","IOS","移动端","手机","电脑","这是测试数据，你信吗", "你说呢"};
     private void initView() {
         btn = (Button) this.findViewById(R.id.btn);
         text = (TextView) this.findViewById(R.id.text);
