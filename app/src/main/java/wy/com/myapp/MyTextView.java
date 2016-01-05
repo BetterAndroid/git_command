@@ -10,6 +10,9 @@ import android.widget.TextView;
  × 测试代码
  */
 public class MyTextView extends TextView {
+	
+	
+	//private MyTextView()为了体现修改
     public MyTextView(Context context) {
         super(context);
     }
