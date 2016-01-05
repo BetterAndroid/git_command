@@ -5,6 +5,9 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * 添加注释
+ */
 public class MySimpleLayout extends ViewGroup {
     public MySimpleLayout(Context context, AttributeSet attr) {
         this(context, attr, 0);
