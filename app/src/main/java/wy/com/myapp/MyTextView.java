@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 /**
  * Created by 51talk on 2015/12/30.
+ × 测试代码
  */
 public class MyTextView extends TextView {
     public MyTextView(Context context) {
