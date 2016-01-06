@@ -32,7 +32,7 @@
  <br /> 
 7,git push 重复输入用户名和密码：(windows) <br /> 
  a,在环境变量新建用户变量-->key=HOME;value=%USERPROFILE% <br /> 
- b,在c:\user\xxx--> 新建文件(-netrc)
+ b,在c:\user\xxx--> 新建文件(-netrc) <br />
  c,文件内容--> machine github.com login xxxxx password xxxx <br /> 
 <br /> 
 8.忽略一些文件、文件夹不提交<br /> 
@@ -40,3 +40,14 @@
  target <br /> 
  bin <br /> 
  *.db <br /> 
+ <br />
+9.git 提交代码：git commit -a :将修改的文件添加并提交 <br /> 
+-->git 更新远程代码到本地：git pull --rebase <br /> 更新远程代码与本地的代码冲突-->解决之后 --> git add . -- 标记冲突解决 --> git pull --rebase 
+-->git 提交本地的commit ：git push <br />
+<br />
+10.git status :当前的状态 <br />
+<br />
+
+
+ 
+ 
