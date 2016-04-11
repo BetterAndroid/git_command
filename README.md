@@ -47,11 +47,11 @@
 <br />
 10.git status :当前的状态 <br />
 <br />
-11.使用git base每次都需要输入用户名和密码的解决方法
-git config --global credential.helper store:长期记住密码
-git config --global credential.helper cache:设置记住密码（默认15分钟）
-如果想自己设置失效时间，可以这样做：
-git config credential.helper 'cache --timeout=3600':这样就设置一个小时之后失效
+11.使用git base每次都需要输入用户名和密码的解决方法<br />
+git config --global credential.helper store:长期记住密码<br />
+git config --global credential.helper cache:设置记住密码（默认15分钟）<br />
+如果想自己设置失效时间，可以这样做：<br />
+git config credential.helper 'cache --timeout=3600':这样就设置一个小时之后失效<br />
 
 
  
