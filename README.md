@@ -53,6 +53,9 @@ git config --global credential.helper cache:设置记住密码（默认15分钟�
 如果想自己设置失效时间，可以这样做：<br />
 git config credential.helper 'cache --timeout=3600':这样就设置一个小时之后失效<br />
 
+11.git cherry-pick命令。<br />
+git cherry-pick [commitID] 提取一个commit<br />
+git cherry-pick [start-commitID]..[end-commitID] 提取一个commit到另一个commit之间的所以commit，不包括start-commitID，包括end-commitID。<br />
+git cherry-pick start-commitID]^..[end-commitID] 提取一个commit到另一个commit之间的所以commit，包括start-commitID，包括end-commitID。<br />
 
- 
  
